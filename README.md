@@ -27,7 +27,7 @@ i)  A client using an SSL Client Certificate:
         .validateServerHostname(false)
         .validateServerCertChain(true)
         .clientCertFile("certificate_filename")
-        .trustStroe("trust_store_filename")
+        .trustStore("trust_store_filename")
         .connectTimeoutMs(1000)
         .readTimeoutMs(1000)
         
